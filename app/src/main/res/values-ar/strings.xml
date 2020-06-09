@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Masael</string>
+    <string name="title_questions">الاسئلة</string>
+    <string name="title_posts">المنشورات</string>
+    <string name="title_profile">حسابي</string>
+    <string name="title_settings">الاعدادات</string>
+
+    //tab items
+    <string name="division1">فقه</string>
+    <string name="division2">عقائد</string>
+    <string name="division3">قران</string>
+    <string name="division4">اجتماع</string>
+    <string name="all">الجميع</string>
+    <string name="bookmarks">الارشيف</string>
+    <string name="my_questions">اسئلتي</string>
+
+    //
+    <string name="seeMore">رؤية المزيد...</string>
+    <string name="send">ارسال</string>
+    <string name="question">السؤال</string>
+    <string name="answer">الجواب</string>
+    <string name="password">رمز المرور</string>
+    <string name="username">المعرف</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="register">انشاء حساب جديد</string>
+    <string name="login_btn">دخول</string>
+    <string name="register_btn">انشاء حساب</string>
+    <string name="name">اسم المستخدم</string>
+    <string name="password_confirm">تاكيد رمز المرور</string>
+
+    //settings
+    <string name="account_management">ادارة الحساب</string>
+    <string name="font_management">تنسيق الخط</string>
+    <string name="view_mode">وضع الرؤيه</string>
+    <string name="nightMode">الوضع الليلي</string>
+    <string name="font_size">حجم الخط</string>
+    <string name="font_type">نوع الخط</string>
+    <string name="language">اللغة</string>
+    <string name="app_lang">لغة التطبيق</string>
+    <string name="content_lang">لغة المحتوى</string>
+    <string name="default_settings">الإعدادات الافتراضية</string>
+    <string name="save_settings">حفظ</string>
+    //languages
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="french">française</string>
+
+    //ask
+    <string name="question_type">النوع: </string>
+    <string name="public_question">عام</string>
+    <string name="private_question">خاص</string>
+    <string name="private_tooltip">سوف تظهر الاجابة على سؤال في قسم اسئلتي فقط.</string>
+    <string name="public_tooltip">سوف تجد الاجابة على سؤالك في الاسئلة العامة وفي قسم اسئلتي.</string>
+    <string name="question_category">الصنف</string>
+    <string name="unknown">لا اعرف</string>
+
+    //dialog
+    <string name="delete">حذف؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="loading">تحميل...</string>
+    <string name="wait">الرجاء الإنتظار</string>
+
+    //toast messages
+    <string name="no_comments">لايوجد اي تعليقات</string>
+    <string name="must_login_to_post">يجب تسجيل الدخول</string>
+    <string name="check_fields_for_error">تحقق من الحقول للخطأ</string>
+    <string name="comment_sent">تم ارسال التعليق</string>
+
+    <string name="login_credentials_wrong">خطأ في الرمز السري او المعرف</string>
+    <string name="error_try_again">خطأ, حاول مرة أخرى</string>
+
+    <string name="delete_complete">تم الحذف</string>
+    <string name="delete_failed"> فشل الحذف</string>
+    <string name="email_taken"> البريد الالكتروني موجود مسبقا</string>
+
+    //loading errors
+    <string name="no_connection">لا يوجد اتصال...</string>
+    <string name="error">خطا</string>
+    <string name="retry">اعادة المحاوله</string>
+
+
+</resources>

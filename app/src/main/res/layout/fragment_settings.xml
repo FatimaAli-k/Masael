@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:padding="20dp"
+       >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/account_management"
+           android:fontFamily="@font/myfont"
+           android:gravity="center"
+           android:textColor="@color/colorAccent"
+
+           />
+       <View
+
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+
+       <Button
+
+           android:id="@+id/logout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/logout"
+           android:fontFamily="@font/myfont"
+           android:drawableStart="@drawable/ic_exit_to_app_black_24dp"
+           android:drawablePadding="15dp"
+           android:background="@drawable/bg_empty"
+           android:minHeight="0dp"
+           android:minWidth="0dp"
+           android:layout_gravity="start"
+
+           />
+       <Button
+           android:id="@+id/login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/login"
+           android:fontFamily="@font/myfont"
+           android:drawableStart="@drawable/ic_exit_to_app_black_24dp"
+           android:drawablePadding="15dp"
+           android:background="@drawable/bg_empty"
+           android:minHeight="0dp"
+           android:minWidth="0dp"
+           android:layout_gravity="start"
+           />
+
+       <Button
+           android:id="@+id/register"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/register"
+           android:fontFamily="@font/myfont"
+           android:drawableStart="@drawable/ic_person_add_black_24dp"
+           android:drawablePadding="15dp"
+           android:background="@drawable/bg_empty"
+           android:minHeight="0dp"
+           android:minWidth="0dp"
+           android:layout_gravity="start"
+           />
+
+
+
+       <View
+
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/view_mode"
+           android:fontFamily="@font/myfont"
+           android:gravity="center"
+           android:textColor="@color/colorAccent"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"/>
+       <Switch
+           android:id="@+id/themeSwitch"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/nightMode"
+           android:fontFamily="@font/myfont"
+           android:switchPadding="15dp"
+           android:layoutDirection="ltr"
+           android:buttonTint="@color/colorAccent"
+
+           />
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/font_management"
+           android:fontFamily="@font/myfont"
+           android:gravity="center"
+           android:textColor="@color/colorAccent"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+       <RadioGroup
+           android:id="@+id/fontSelect"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layoutDirection="locale"
+
+
+           >
+
+           <RadioButton
+               android:id="@+id/f1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/font_type"
+               android:fontFamily="@font/myfont"
+               android:buttonTint="@color/colorAccent"
+               />
+
+           <RadioButton
+               android:id="@+id/f2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/font_type"
+               android:fontFamily="@font/myfont2"
+               android:buttonTint="@color/colorAccent"
+               />
+
+           <RadioButton
+               android:id="@+id/f3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/font_type"
+               android:fontFamily="@font/myfont3"
+               android:buttonTint="@color/colorAccent"
+               />
+       </RadioGroup>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layoutDirection="ltr"
+           android:padding="10dp"
+           android:layout_gravity="center">
+           <ImageButton
+               android:id="@+id/increase"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_add_circle_outline_black_24dp"
+               android:background="@drawable/bg_empty"
+               android:layout_marginRight="10dp"
+               android:layout_gravity="center" />
+           <TextView
+               android:id="@+id/sizeSample"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/font_size"
+               android:gravity="center"
+               android:layout_gravity="center"
+               android:textSize="16sp"
+               android:textColor="@color/textColor"
+               />
+
+           <ImageButton
+               android:id="@+id/decrease"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_remove_circle_outline_black_24dp"
+               android:background="@drawable/bg_empty"
+               android:layout_marginLeft="10dp"
+               android:layout_gravity="center" />
+
+
+       </LinearLayout>
+
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/language"
+           android:fontFamily="@font/myfont"
+           android:gravity="center"
+           android:textColor="@color/colorAccent"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/app_lang"
+           android:fontFamily="@font/myfont"
+          android:gravity="center"
+           android:layout_weight="1"
+           android:textColor="@color/colorAccent"
+
+           />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_lang"
+                android:fontFamily="@font/myfont"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"
+
+                />
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+       <RadioGroup
+           android:id="@+id/app_languageSelect"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layoutDirection="locale"
+           android:layout_weight="1"
+
+
+           >
+
+           <RadioButton
+               android:id="@+id/AR"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/arabic"
+               android:fontFamily="@font/myfont"
+               android:buttonTint="@color/colorAccent"
+               />
+
+           <RadioButton
+               android:id="@+id/EN"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/english"
+               android:fontFamily="@font/myfont"
+               android:buttonTint="@color/colorAccent"
+
+               />
+
+           <RadioButton
+               android:id="@+id/FR"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/french"
+               android:fontFamily="@font/myfont"
+               android:buttonTint="@color/colorAccent"
+               />
+       </RadioGroup>
+
+           <View
+               android:id="@+id/divider"
+               android:layout_width="1dp"
+               android:layout_height="match_parent"
+               android:background="@color/divider"/>
+
+           <RadioGroup
+               android:id="@+id/content_languageSelect"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layoutDirection="locale"
+               android:layout_weight="1"
+
+
+               >
+
+               <RadioButton
+                   android:id="@+id/c_AR"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/arabic"
+                   android:fontFamily="@font/myfont"
+                   android:buttonTint="@color/colorAccent"
+                   />
+
+               <RadioButton
+                   android:id="@+id/c_EN"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/english"
+                   android:fontFamily="@font/myfont"
+                   android:buttonTint="@color/colorAccent"
+
+                   />
+
+               <RadioButton
+                   android:id="@+id/c_FR"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/french"
+                   android:fontFamily="@font/myfont"
+                   android:buttonTint="@color/colorAccent"
+                   />
+           </RadioGroup>
+       </LinearLayout>
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/divider"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/defaultSettings"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/default_settings"
+               android:background="@drawable/bg_button3"
+               android:layout_margin="10dp"
+               android:minHeight="0dp"
+               android:padding="5dp"
+               android:layout_alignParentLeft="true"
+
+               />
+
+<!--           <Button-->
+<!--               android:id="@+id/saveSettings"-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:text="@string/save_settings"-->
+<!--               android:background="@drawable/bg_button3"-->
+<!--               android:layout_margin="10dp"-->
+<!--               android:minHeight="0dp"-->
+<!--               android:padding="5dp"-->
+<!--               android:layout_alignParentRight="true"-->
+<!--               android:visibility="gone"-->
+
+               />
+       </RelativeLayout>
+
+
+   </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

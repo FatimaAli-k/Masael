@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/division1"
+        android:title="@string/division1" />
+
+    <item
+        android:id="@+id/division2"
+        android:title="@string/division2" />
+
+    <item
+        android:id="@+id/division3"
+        android:title="@string/division3" />
+    <item
+        android:id="@+id/division4"
+        android:title="@string/division4" />
+    <item
+        android:id="@+id/unknown"
+        android:title="@string/unknown" />
+
+</menu>
